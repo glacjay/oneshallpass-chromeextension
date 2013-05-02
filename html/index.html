@@ -15,20 +15,16 @@
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   *-->
-  <script>
-    {% include crypto.js %}
-    {% include jquery.js %}
-    {% include metastitch.js %}
-    {% include purepack.js %}
-    metastitch_module("purepack", "main"); 
-    {% include iced.js %}
-    {% include lib.js %}
-    metastitch_finish();
-    {% include main.js %}
-  </script>
-  <style type="text/css">
-    {% include css/main.css %}
-  </style>
+  <script src="../js/crypto.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/metastitch.js"></script>
+  <script src="../js/purepack.js"></script>
+  <script src="../../extension/metastitch_start.js"></script>
+  <script src="../js/iced.js"></script>
+  <script src="../js/lib.js"></script>
+  <script src="../../extension/metastitch_finish.js"></script>
+  <script src="../js/main.js"></script>
+  <link type="text/css" rel="stylesheet" href="../../css/main.css"></style>
   <meta name="viewport" content="width = device-width" />
  </head>
  <body>

@@ -1,5 +1,5 @@
 
-JSMIN=uglifyjs -c -m
+JSMIN=cat #uglifyjs -c -m
 
 CRYPTO_JS_VERSION=3.0.2
 JQUERY_VERSION=1.9.0

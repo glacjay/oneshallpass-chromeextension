@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "One Shall Pass",
+	"description": "One Shall Pass",
+	"version": "0.1",
+	"permissions": [],
+	"browser_action": {
+		"default_popup": "build/html/index.html"
+	}
+}
